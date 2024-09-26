@@ -15,13 +15,13 @@ You can configure additional settings for the plugin inside the `BepInEx/config/
 
 If you are using a platform other than Windows, or you run into other issues installing BepInEx, additional documentation can be found [here](https://docs.bepinex.dev/articles/user_guide/installation/index.html).
 
-### Controls
+## Usage
 
-#### Maximum Framerate & VSync
+### Maximum Framerate & VSync
 
 Edit the `BepInEx/config/dev.saturnkai.pussdebugger.cfg` config file inside the game's root directory to change these settings.
 
-#### Level Debugger
+### Level Debugger
 
 The level debugger allows you to select any level from the game, and load it:
 
