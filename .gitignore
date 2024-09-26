@@ -1,0 +1,6 @@
+# ignore compiled outputs
+bin/
+obj/
+
+# ignore my debugging script
+/start.bat
