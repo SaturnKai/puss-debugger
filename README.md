@@ -7,7 +7,7 @@ A plugin for PUSS! that adds graphic customization improvements and level debugg
 This mod uses the **BepInEx** mod loader.
 
 1. Download the [BepInEx v5.4.23.2](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.2) for your target platform.
-2. Download the latest release of PUSS! Debugger (coming soon).
+2. Download the latest [release](https://github.com/SaturnKai/puss-debugger/releases) of PUSS! Debugger.
 3. Extract the contents of the BepInEx .zip file inside the root directory of the game, and launch the game at least once so that the required files are generated.
 4. Place the PUSS! Debugger .dll file inside the `BepInEx/plugins` folder.
 
@@ -28,6 +28,7 @@ The level debugger allows you to select any level from the game, and load it:
 -   **Page Up**: Scrolls through the level list forward.
 -   **Page Down**: Scrolls through the level list backward.
 -   **Insert**: Load selected level.
+-   **End**: End the current level.
 
 ## Credits
 

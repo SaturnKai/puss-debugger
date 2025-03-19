@@ -107,6 +107,12 @@ public class Plugin : BaseUnityPlugin
                 Core.Instance.GC.FinishLevel();
             } else Log.LogWarning($"Selected level '{levelKeys[selectedLevelIndex]}' scene does not exist.");
         }
+        // beat level
+        else if (Input.GetKeyDown(KeyCode.End)) {
+            if (State.allowedStates.Contains(State.currentState)) {
+                Core.Instance.GC.FinishLevel();
+            }
+        }
 
         // continuous scroll handler
         if (isScrolling) {
